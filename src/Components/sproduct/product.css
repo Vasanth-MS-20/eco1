@@ -1,0 +1,45 @@
+.product{
+    height: 85dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .navcont{
+    padding: 30px;
+}
+
+.product img{
+    max-height: 320px ;
+    /* max-width: 400px; */
+}
+
+.product .title{
+    font-size: 14px;
+}
+
+.product .price{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product .des{
+    font-size: 12px;
+}
+
+.product button{
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 0px;
+    background-color: #222222;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.product button:hover{
+    background: #222222;
+    color: white;
+}
+
